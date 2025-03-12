@@ -9,8 +9,11 @@ System built with Python, Django and MySQL, running on DigitalOcean Kubernetes.
 Pistol Whip Style System
 [![Pistol Whip Style System](images/styles-2.PNG)](https://www.youtube.com/watch?v=6wu_bqQiHvg "Pistol Whip Style System Revealed!")
 
+The Style system added modifiers to Pistol Whip with each modifier combination having their own leaderboard creating the potential for millions of leaderboards.  
+
 Pistol Whip Smoke and Thunder
 [![Pistol Whip Smoke and Thunder](images/smoke-and-thunder-screenshot.PNG)](https://www.youtube.com/watch?v=3hhPAt0Nq94 "Pistol Whip - Official Smoke & Thunder Launch Teaser")
+
 
 School Projects:  
 

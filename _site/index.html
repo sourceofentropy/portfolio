@@ -19,7 +19,7 @@
 {"@context":"https://schema.org","@type":"WebSite","headline":"portfolio","name":"portfolio","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=0cf20f8568c47777fd3a5197f861f1b5fb7ad265">
+    <link rel="stylesheet" href="/assets/css/style.css?v=1494af493f6d71dd947422fbd4e3d0a6c3cfd239">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="/assets/js/respond.js"></script>
     <!--[if lt IE 9]>
@@ -70,7 +70,24 @@
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
         </div>
 
-        <p style="text-align: center;"><a href="https://www.linkedin.com/in/jonathan-anthony-7a267a72/" target="_blank">Jonathan</a></p>
+        
+<style>
+  /* This resets the list to use standard bullets */
+  details ul, 
+  article ul {
+    list-style-type: disc !important;
+    padding-left: 20px !important;
+  }
+
+  /* This hides the ">>" if the theme is adding it via CSS */
+  details li:before,
+  article li:before {
+    content: "" !important;
+    display: none !important;
+  }
+</style>
+
+<p style="text-align: center;"><a href="https://www.linkedin.com/in/jonathan-anthony-7a267a72/" target="_blank">Jonathan</a></p>
 
 <p style="text-align: center;">- Game Development Portfolio -</p>
 
@@ -95,46 +112,150 @@ good colour but doesn't fit with the current theme without updating the yellow h
 
 </p>
 
-<details>
-  <summary style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #223344; padding: 12px; border-radius: 6px; list-style: none;">
-  <strong><a href="https://projectsoul2025.itch.io/project-soul" target="_blank">Project Soul</a></strong> 
-  is the TFS Fall 2025 Capstone Project. Click here to read more.
-  
-  <!--<span style="font-size: 0.6em;">▼ Click to expand</span>-->
-  </summary>
+<p style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #112233; padding: 12px; border-radius: 1px;">
+<strong><a href="https://projectsoul2025.itch.io/project-soul" target="_blank">Project Soul</a></strong> 
+</p>
 
-  <div style="padding: 15px; overflow: hidden;">
-  <img src="images/project-soul/TFS_VG_ProjectSoulPoster_1212.jpg" style="float: left; width: 150px; margin-right: 20px; border-radius: 8px; border: 1px solid #3d0066;" />
 <p>
-      <strong>Agent Status:</strong> Active <br />
-      This agent is currently using the <em>Midnight</em> behavior set. By floating the image to the left, we can fit all these technical specifications right next to the visual preview without wasting vertical space.
+  <div style="padding: 15px; overflow: hidden;">
+  <img src="images/project-soul/TFS_VG_ProjectSoulPoster_1212.jpg" style="float: left; width: 200px; margin-right: 20px; border-radius: 8px; border: 1px solid #3d0066;" />
+<p>
+      <strong>Toronto Film School Capstone Project</strong> - Winter 2025<br /><br />
+      A 2.5D side scrolling action platformer styled after the likes of Trine and Mandragora<br />
+      <br />
+      <strong>Roles:</strong><br />  
+      - Assistant Producer<br />
+      - Project management (Azure DevOps)<br />
+      - Tools Engineer<br />
+      <br />
+
+      <strong>Contributions:</strong><br />
+
+      - Dialogue and Quest system<br />
+      - Scrums/Azure sprint and board management<br />
+      - Co-team lead (PR's, merge conflicts)<br />
+      <br />
     </p>
     
-    <p>
-      The <strong>GOAP Planner</strong> calculates costs based on the distance between this sprite and the target objective.
-    </p>
   </div>
-  <p><a href="https://www.torontofilmschool.ca/blog/tfs-video-game-students-unveil-project-soul/" target="_blank"></a></p>
+</p>
+
+<details>
+  <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #223344; padding: 12px; border-radius: 6px;">
+    <strong>Click here for technical details about Project Soul</strong>
+    <span style="color: #00d2ff;">▼</span>
+  </summary>
+  <p><br /></p>
+
+  <p><strong>Language/Engine:</strong></p>
+  <ul>
+    <li>C# / Unity</li>
+  </ul>
+
+  <p><strong>Features:</strong></p>
+
+  <p><strong>Dialogue System</strong></p>
+  <ul>
+    <li>Node-based dialogue editor using ScriptableObjects</li>
+    <li>Pre/post node triggers
+      <ul>
+        <li>For giving or completing quests, providing quest rewards</li>
+        <li>Expandable for other in-game events</li>
+      </ul>
+    </li>
+    <li>Conditional dialogue
+      <ul>
+        <li>Supported multiple conditions with AND / OR</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p><strong>Quest System</strong></p>
+  <ul>
+    <li>Utilized ScriptableObjects</li>
+    <li>Configurable number and type of quest objectives</li>
+    <li>Provided hooks for dialogue or other systems to verify quest status</li>
+  </ul>
+
+  <p><strong><a href="https://projectsoul2025.itch.io/project-soul">TFS Release Announcement</a></strong></p>
 </details>
 
 <hr />
 
-<p><a href="https://sourceofentropy.itch.io/dssp" target="_blank">Deep Space Speeder Park</a><br />
-<img src="/images/dssp/jump.PNG" alt="A Screenshot of Deep Space Speeder Park" /></p>
+<p style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #112233; padding: 12px; border-radius: 1px;">
+    <strong>
+        <a href="https://sourceofentropy.itch.io/dssp" target="_blank">Deep Space Speeder Park</a>
+    </strong> 
+</p>
 
-<details>
-  <summary style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #223344; padding: 12px; border-radius: 6px; list-style: none;">
-  <strong>Click to see my GOAP AI Logic</strong> 
-  <!--<span style="font-size: 0.6em;">▼ Click to expand</span>-->
-  </summary>
+<div style="padding: 15px; overflow: hidden;">
+  <p><img src="images/dssp/jump.PNG" style="width: 600px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #3d0066;" /></p>
 
-  <p>This content is hidden until the user clicks the summary line above. 
-  You can put text, code snippets, or images here!</p>
-</details>
+  <p>A physics-based sci-fi vehicle sim set on an asteroid with a “skate park” for space speeders.</p>
 
-<p><a href="https://sourceofentropy.itch.io/smgdt-prototype-edition" target="_blank">Spage Mini Golf Death Trench</a></p>
+  <p><strong>Language/Engine:</strong></p>
+  <ul>
+    <li>C# / Unity</li>
+  </ul>
 
-<p><a href="https://sourceofentropy.itch.io/rocket-ship-valet" target="_blank">Rocket Ship Valet</a></p>
+  <p><strong>Notable Features:</strong></p>
+  <ul>
+    <li>Independent physics-based maneuvering thrusters, main engines, and brake thrusters</li>
+    <li>“Repulsor-like” suspension (similar to “Luke’s land speeder”)</li>
+    <li>Particle physics-based “elevator”</li>
+  </ul>
+</div>
+
+<p style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #112233; padding: 12px; border-radius: 1px;">
+    <strong>
+        <a href="https://sourceofentropy.itch.io/smgdt-prototype-edition" target="_blank">Space Mini Golf Death Trench</a>
+    </strong> 
+</p>
+
+<div style="padding: 15px; overflow: hidden;">
+  <p><img src="images/smgdt/smgdt-orbit.PNG" style="width: 600px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #3d0066;" /></p>
+
+  <p>A physics-based adventure atop weaponized space mini golf platforms.<br /></p>
+
+  <p>Designed as an action shooter for players to pilot and fight their way through oversized and hostile space mini golf courses.</p>
+</div>
+
+<p><strong>Language/Engine:</strong></p>
+<ul>
+  <li>C# / Unity</li>
+</ul>
+
+<p><strong>Notable Features:</strong></p>
+<ul>
+  <li>Physics based controller</li>
+  <li>Dotween Library for scripted obstacle movement</li>
+</ul>
+
+<p style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #112233; padding: 12px; border-radius: 1px;">
+    <strong>
+        <a href="https://sourceofentropy.itch.io/rocket-ship-valet" target="_blank">Rocket Ship Valet</a>  
+    </strong> 
+</p>
+
+<div style="padding: 15px; overflow: hidden;">
+  <p><img src="images/rocket-ship-valet/rocket-ship-valet-please.PNG" style="width: 600px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #3d0066;" /></p>
+
+  <p>An unusual take on the standard lunar lander assignment<br /></p>
+
+  <p>Collect and deliver passengers in the most unwieldy of spacecraft</p>
+</div>
+
+<p><strong>Language/Engine:</strong></p>
+<ul>
+  <li>C++ / Unreal 5</li>
+</ul>
+
+<p><strong>Notable Features:</strong></p>
+<ul>
+  <li>Physics based</li>
+  <li>Pick up passengers via tractor beam or just crash into them the old fashioned way</li>
+  <li>Avoid miniature black holes and springy space mushrooms</li>
+</ul>
 
 <h3 id="game-jams">Game Jams</h3>
 

@@ -1,0 +1,253 @@
+﻿---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+
+{% comment %}user styles - move to assets/css/style.scss when we move beyond a one page layout{% endcomment %}
+<style>
+  /* This resets the list to use standard bullets */
+  details ul, 
+  article ul {
+    list-style-type: disc !important;
+    padding-left: 20px !important;
+  }
+
+  /* This hides the ">>" if the theme is adding it via CSS */
+  details li:before,
+  article li:before {
+    content: "" !important;
+    display: none !important;
+  }
+</style>
+
+{% comment %}Heading - About me{% endcomment %}
+
+<p style="text-align: center;"><a href="https://www.linkedin.com/in/jonathan-anthony-7a267a72/" target="_blank">Jonathan</a></p>
+
+<p style="text-align: center;">- Game Development Portfolio -</p>
+
+---
+
+{% comment %}Demo Reel{% endcomment %}
+
+<p style="text-align: center;">
+<iframe src="https://player.vimeo.com/video/1096539283?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Demo Reel - Game Developer"></iframe>
+</p>
+
+<!--
+good colour but doesn't fit with the current theme without updating the yellow hyperlinks and white text, which we will do another day on another pass
+<hr style="border: 0; height: 2px; background: #3d0066; margin: 10px 0;">
+-->
+
+---
+
+{% comment %}Capstone Project - Video Embed{% endcomment %}
+
+<p style="text-align: center;">
+
+<!--![Project Soul Title](/images/project-soul/project-soul-title.png) - either this or the video embed seems to be enough, both show similar images -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W3JXC9hvvfQ?si=IMtTX5IqPTELV5bM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</p>
+
+{% comment %} Capstone Project - Synopsis {% endcomment %}
+<p style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #112233; padding: 12px; border-radius: 1px;">
+<strong><a href="https://projectsoul2025.itch.io/project-soul" target="_blank">Project Soul</a></strong> 
+</p>
+
+<p>
+  <div style="padding: 15px; overflow: hidden;">
+  <img src="images/project-soul/TFS_VG_ProjectSoulPoster_1212.jpg" style="float: left; width: 200px; margin-right: 20px; border-radius: 8px; border: 1px solid #3d0066;">
+<p>
+      <strong>Toronto Film School Capstone Project</strong> - Winter 2025<br><br>
+      A 2.5D side scrolling action platformer styled after the likes of Trine and Mandragora<br>
+      <br>
+      <strong>Roles:</strong><br>  
+      - Assistant Producer<br>
+      - Project management (Azure DevOps)<br>
+      - Tools Engineer<br>
+      <br>
+
+      <strong>Contributions:</strong><br>
+
+      - Dialogue and Quest system<br>
+      - Scrums/Azure sprint and board management<br>
+      - Co-team lead (PR's, merge conflicts)<br>
+      <br>
+    </p>
+    
+  </div>
+</P>
+
+{% comment %}Capstone Project - Technical Details{% endcomment %}
+<details markdown="1">
+  <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #223344; padding: 12px; border-radius: 6px;">
+    <strong>Click here for technical details about Project Soul</strong>
+    <span style="color: #00d2ff;">▼</span>
+  </summary>
+  <br>
+
+  **Language/Engine:**
+  - C# / Unity
+
+  **Features:**
+
+  **Dialogue System**
+  - Node-based dialogue editor using ScriptableObjects
+  - Pre/post node triggers
+    - For giving or completing quests, providing quest rewards
+    - Expandable for other in-game events
+  - Conditional dialogue
+    - Supported multiple conditions with AND / OR
+
+  **Quest System**
+  - Utilized ScriptableObjects
+  - Configurable number and type of quest objectives
+  - Provided hooks for dialogue or other systems to verify quest status  
+
+  **[TFS Release Announcement](https://projectsoul2025.itch.io/project-soul)** 
+  </details>
+
+___
+
+{% comment %}DSSP - Synopsis{% endcomment %}
+
+<p style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #112233; padding: 12px; border-radius: 1px;">
+    <strong>
+        <a href="https://sourceofentropy.itch.io/dssp" target="_blank">Deep Space Speeder Park</a>
+    </strong> 
+</p>
+
+<div style="padding: 15px; overflow: hidden;" markdown="1">
+  <img src="images/dssp/jump.PNG" style="width: 600px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #3d0066;">
+
+  A physics-based sci-fi vehicle sim set on an asteroid with a "skate park" for space speeders.
+
+**Language/Engine:**
+  - C# / Unity
+
+  **Notable Features:**
+  - Independent physics-based maneuvering thrusters, main engines, and brake thrusters
+  - "Repulsor-like" suspension (similar to "Luke's land speeder") 
+  - Particle physics-based "elevator"
+</div>
+
+
+{% comment %}DSSP - Expanded section - if any{% endcomment %}
+
+{% comment %}SMGDT - Synopsis{% endcomment %}
+
+<p style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #112233; padding: 12px; border-radius: 1px;">
+    <strong>
+        <a href="https://sourceofentropy.itch.io/smgdt-prototype-edition" target="_blank">Space Mini Golf Death Trench</a>
+    </strong> 
+</p>
+
+<div style="padding: 15px; overflow: hidden;" markdown="1">
+  <img src="images/smgdt/smgdt-orbit.PNG" style="width: 600px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #3d0066;">
+
+  A physics-based adventure atop weaponized space mini golf platforms.<br>
+
+  Designed as an action shooter for players to pilot and fight their way through oversized and hostile space mini golf courses.
+</div>
+
+**Language/Engine:**
+  - C# / Unity
+
+  **Notable Features:**
+  - Physics based controller
+  - Dotween Library for scripted obstacle movement
+  
+
+
+{% comment %}SMGDT - Expanded section - if any{% endcomment %}
+
+{% comment %}Rocket Ship Valet - Synopsis{% endcomment %}
+
+
+<p style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #112233; padding: 12px; border-radius: 1px;">
+    <strong>
+        <a href="https://sourceofentropy.itch.io/rocket-ship-valet" target="_blank">Rocket Ship Valet</a>  
+    </strong> 
+</p>
+
+<div style="padding: 15px; overflow: hidden;" markdown="1">
+  <img src="images/rocket-ship-valet/rocket-ship-valet-please.PNG" style="width: 600px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #3d0066;">
+
+  An unusual take on the standard lunar lander assignment<br>
+
+  Collect and deliver passengers in the most unwieldy of spacecraft
+</div>
+
+**Language/Engine:**
+  - C++ / Unreal 5
+
+  **Notable Features:**
+  - Physics based
+  - Pick up passengers via tractor beam or just crash into them the old fashioned way
+  - Avoid miniature black holes and springy space mushrooms
+  
+{% comment %}Rocket Ship Valet - Expanded section - if any{% endcomment %}
+
+{% comment %}Game Jams{% endcomment %}
+### Game Jams  
+
+{% comment %}Cult of the Reaper - Synopsis{% endcomment %}
+<a href="https://sourceofentropy.itch.io/cult-of-the-reaper" target="_blank">Cult of the Reaper</a>  
+Summer 2025 TFS Game Jam Winner  
+
+{% comment %}Cult of the Reaper - Expanded section -if any{% endcomment %}
+
+{% comment %}Fort Maple - Synopsis{% endcomment %}
+<a href="https://theredpool.itch.io/fort-maple" target="_blank">Fort Maple</a>
+
+April 2025 TFS Game Jam Winner  
+
+What Canadian Beaver doesn't want to run their own Maple Syrup farm?  
+Fort Maple was by a team of 3 programmers and 1 artist over the course of a 3.5 day game jam.  
+Built in Unity/C#  
+
+{% comment %}Fort Maple - Expanded Section - if any{% endcomment %}
+
+{% comment %}Commercial projects{% endcomment %}
+### Commercial Projects  
+
+{% comment %}Pistol Whip - Video Embeds{% endcomment %}
+
+Pistol Whip 2089
+- A Blade Runner / Terminator inspired expansion for the award winning VR shooter Pistol Whip
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LZVEEWk9bzg?si=En8aQifi3EgMi3zZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Pistol Whip Styles  
+- The Styles system was a major addition to Pistol Whips modifiers and leaderboards, allowing for potentially millions of modifier combinations each with their own custom leaderboards.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6wu_bqQiHvg?si=1swwS-TGAfwuot3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Pistol Whip Smoke & Thunder  
+- A Wild Wild West inspired expansion for the award winning VR shooter Pistol Whip
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3hhPAt0Nq94?si=RXqMzMvvdVzXXpcd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+{% comment %}Additional Courses{% endcomment %}
+### Additional Courses  
+
+{% comment %}Udemy Courses{% endcomment %}
+#### Udemy Courses  
+
+[Intro to Flight Physics](https://www.udemy.com/course/intro-to-airplane-physics-in-unity-3d/)  
+
+[The Beginners Guide to Games AI](https://www.udemy.com/course/artificial-intelligence-in-unity/ )  
+
+Unity Dialogue & Quests: Intermediate (Course no longer available)
+
+[Learn to Create a Metroidvania Game](https://www.udemy.com/course/unity-metvania/)  
+
+[Unity Mobile Game Development](https://www.udemy.com/course/unitymobilecourse/)  
+
+[Galaga 3D](https://www.udemy.com/course/unity-course-galaga-3d/)  
+
+[Pinball 3D](https://www.udemy.com/course/unity-game-tutorial-pinball-3d/)  
+
+[Ludo 3D](https://www.udemy.com/course/unity-game-tutorial-board-game-ludo-3d/)  

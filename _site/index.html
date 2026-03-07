@@ -19,7 +19,7 @@
 {"@context":"https://schema.org","@type":"WebSite","headline":"portfolio","name":"portfolio","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=6d234211775218209a318e78959e6e6b7a96c83b">
+    <link rel="stylesheet" href="/assets/css/style.css?v=1494af493f6d71dd947422fbd4e3d0a6c3cfd239">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="/assets/js/respond.js"></script>
     <!--[if lt IE 9]>
@@ -70,13 +70,246 @@
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
         </div>
 
-        <iframe src="https://player.vimeo.com/video/1096539283?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Demo Reel - Game Developer"></iframe>
+        
+<style>
+  /* This resets the list to use standard bullets */
+  details ul, 
+  article ul {
+    list-style-type: disc !important;
+    padding-left: 20px !important;
+  }
+
+  /* This hides the ">>" if the theme is adding it via CSS */
+  details li:before,
+  article li:before {
+    content: "" !important;
+    display: none !important;
+  }
+</style>
+
+<p style="text-align: center;"><a href="https://www.linkedin.com/in/jonathan-anthony-7a267a72/" target="_blank">Jonathan</a></p>
+
+<p style="text-align: center;">- Game Development Portfolio -</p>
+
+<hr />
+
+<p style="text-align: center;">
+<iframe src="https://player.vimeo.com/video/1096539283?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Demo Reel - Game Developer"></iframe>
+</p>
+
+<!--
+good colour but doesn't fit with the current theme without updating the yellow hyperlinks and white text, which we will do another day on another pass
+<hr style="border: 0; height: 2px; background: #3d0066; margin: 10px 0;">
+-->
+
+<hr />
+
+<p style="text-align: center;">
+
+<!--![Project Soul Title](/images/project-soul/project-soul-title.png) - either this or the video embed seems to be enough, both show similar images -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W3JXC9hvvfQ?si=IMtTX5IqPTELV5bM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+</p>
+
+<p style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #112233; padding: 12px; border-radius: 1px;">
+<strong><a href="https://projectsoul2025.itch.io/project-soul" target="_blank">Project Soul</a></strong> 
+</p>
+
+<p>
+  <div style="padding: 15px; overflow: hidden;">
+  <img src="images/project-soul/TFS_VG_ProjectSoulPoster_1212.jpg" style="float: left; width: 200px; margin-right: 20px; border-radius: 8px; border: 1px solid #3d0066;" />
+<p>
+      <strong>Toronto Film School Capstone Project</strong> - Winter 2025<br /><br />
+      A 2.5D side scrolling action platformer styled after the likes of Trine and Mandragora<br />
+      <br />
+      <strong>Roles:</strong><br />  
+      - Assistant Producer<br />
+      - Project management (Azure DevOps)<br />
+      - Tools Engineer<br />
+      <br />
+
+      <strong>Contributions:</strong><br />
+
+      - Dialogue and Quest system<br />
+      - Scrums/Azure sprint and board management<br />
+      - Co-team lead (PR's, merge conflicts)<br />
+      <br />
+    </p>
+    
+  </div>
+</p>
+
+<details>
+  <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #223344; padding: 12px; border-radius: 6px;">
+    <strong>Click here for technical details about Project Soul</strong>
+    <span style="color: #00d2ff;">▼</span>
+  </summary>
+  <p><br /></p>
+
+  <p><strong>Language/Engine:</strong></p>
+  <ul>
+    <li>C# / Unity</li>
+  </ul>
+
+  <p><strong>Features:</strong></p>
+
+  <p><strong>Dialogue System</strong></p>
+  <ul>
+    <li>Node-based dialogue editor using ScriptableObjects</li>
+    <li>Pre/post node triggers
+      <ul>
+        <li>For giving or completing quests, providing quest rewards</li>
+        <li>Expandable for other in-game events</li>
+      </ul>
+    </li>
+    <li>Conditional dialogue
+      <ul>
+        <li>Supported multiple conditions with AND / OR</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p><strong>Quest System</strong></p>
+  <ul>
+    <li>Utilized ScriptableObjects</li>
+    <li>Configurable number and type of quest objectives</li>
+    <li>Provided hooks for dialogue or other systems to verify quest status</li>
+  </ul>
+
+  <p><strong><a href="https://projectsoul2025.itch.io/project-soul">TFS Release Announcement</a></strong></p>
+</details>
+
+<hr />
+
+<p style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #112233; padding: 12px; border-radius: 1px;">
+    <strong>
+        <a href="https://sourceofentropy.itch.io/dssp" target="_blank">Deep Space Speeder Park</a>
+    </strong> 
+</p>
+
+<div style="padding: 15px; overflow: hidden;">
+  <p><img src="images/dssp/jump.PNG" style="width: 600px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #3d0066;" /></p>
+
+  <p>A physics-based sci-fi vehicle sim set on an asteroid with a “skate park” for space speeders.</p>
+
+  <p><strong>Language/Engine:</strong></p>
+  <ul>
+    <li>C# / Unity</li>
+  </ul>
+
+  <p><strong>Notable Features:</strong></p>
+  <ul>
+    <li>Independent physics-based maneuvering thrusters, main engines, and brake thrusters</li>
+    <li>“Repulsor-like” suspension (similar to “Luke’s land speeder”)</li>
+    <li>Particle physics-based “elevator”</li>
+  </ul>
+</div>
+
+<p style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #112233; padding: 12px; border-radius: 1px;">
+    <strong>
+        <a href="https://sourceofentropy.itch.io/smgdt-prototype-edition" target="_blank">Space Mini Golf Death Trench</a>
+    </strong> 
+</p>
+
+<div style="padding: 15px; overflow: hidden;">
+  <p><img src="images/smgdt/smgdt-orbit.PNG" style="width: 600px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #3d0066;" /></p>
+
+  <p>A physics-based adventure atop weaponized space mini golf platforms.<br /></p>
+
+  <p>Designed as an action shooter for players to pilot and fight their way through oversized and hostile space mini golf courses.</p>
+</div>
+
+<p><strong>Language/Engine:</strong></p>
+<ul>
+  <li>C# / Unity</li>
+</ul>
+
+<p><strong>Notable Features:</strong></p>
+<ul>
+  <li>Physics based controller</li>
+  <li>Dotween Library for scripted obstacle movement</li>
+</ul>
+
+<p style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #112233; padding: 12px; border-radius: 1px;">
+    <strong>
+        <a href="https://sourceofentropy.itch.io/rocket-ship-valet" target="_blank">Rocket Ship Valet</a>  
+    </strong> 
+</p>
+
+<div style="padding: 15px; overflow: hidden;">
+  <p><img src="images/rocket-ship-valet/rocket-ship-valet-please.PNG" style="width: 600px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #3d0066;" /></p>
+
+  <p>An unusual take on the standard lunar lander assignment<br /></p>
+
+  <p>Collect and deliver passengers in the most unwieldy of spacecraft</p>
+</div>
+
+<p><strong>Language/Engine:</strong></p>
+<ul>
+  <li>C++ / Unreal 5</li>
+</ul>
+
+<p><strong>Notable Features:</strong></p>
+<ul>
+  <li>Physics based</li>
+  <li>Pick up passengers via tractor beam or just crash into them the old fashioned way</li>
+  <li>Avoid miniature black holes and springy space mushrooms</li>
+</ul>
+
+<h3 id="game-jams">Game Jams</h3>
+
+<p><a href="https://sourceofentropy.itch.io/cult-of-the-reaper" target="_blank">Cult of the Reaper</a><br />
+Summer 2025 TFS Game Jam Winner</p>
+
+<p><a href="https://theredpool.itch.io/fort-maple" target="_blank">Fort Maple</a></p>
+
+<p>April 2025 TFS Game Jam Winner</p>
+
+<p>What Canadian Beaver doesn’t want to run their own Maple Syrup farm?<br />
+Fort Maple was by a team of 3 programmers and 1 artist over the course of a 3.5 day game jam.<br />
+Built in Unity/C#</p>
+
+<h3 id="commercial-projects">Commercial Projects</h3>
+
+<p>Pistol Whip 2089</p>
+<ul>
+  <li>A Blade Runner / Terminator inspired expansion for the award winning VR shooter Pistol Whip</li>
+</ul>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LZVEEWk9bzg?si=En8aQifi3EgMi3zZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 
+<p>Pistol Whip Styles</p>
+<ul>
+  <li>The Styles system was a major addition to Pistol Whips modifiers and leaderboards, allowing for potentially millions of modifier combinations each with their own custom leaderboards.</li>
+</ul>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6wu_bqQiHvg?si=1swwS-TGAfwuot3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 
+<p>Pistol Whip Smoke &amp; Thunder</p>
+<ul>
+  <li>A Wild Wild West inspired expansion for the award winning VR shooter Pistol Whip</li>
+</ul>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3hhPAt0Nq94?si=RXqMzMvvdVzXXpcd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<h3 id="additional-courses">Additional Courses</h3>
+
+<h4 id="udemy-courses">Udemy Courses</h4>
+
+<p><a href="https://www.udemy.com/course/intro-to-airplane-physics-in-unity-3d/">Intro to Flight Physics</a></p>
+
+<p><a href="https://www.udemy.com/course/artificial-intelligence-in-unity/">The Beginners Guide to Games AI</a></p>
+
+<p>Unity Dialogue &amp; Quests: Intermediate (Course no longer available)</p>
+
+<p><a href="https://www.udemy.com/course/unity-metvania/">Learn to Create a Metroidvania Game</a></p>
+
+<p><a href="https://www.udemy.com/course/unitymobilecourse/">Unity Mobile Game Development</a></p>
+
+<p><a href="https://www.udemy.com/course/unity-course-galaga-3d/">Galaga 3D</a></p>
+
+<p><a href="https://www.udemy.com/course/unity-game-tutorial-pinball-3d/">Pinball 3D</a></p>
+
+<p><a href="https://www.udemy.com/course/unity-game-tutorial-board-game-ludo-3d/">Ludo 3D</a></p>
 
 
       </section>

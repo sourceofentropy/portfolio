@@ -32,8 +32,10 @@ layout: default
 
 {% comment %}Demo Reel{% endcomment %}
 
+<p style="text-align: center;">- Demo Reel -</p>
+
 <p style="text-align: center;">
-<iframe src="https://player.vimeo.com/video/1096539283?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Demo Reel - Game Developer"></iframe>
+    <iframe src="https://player.vimeo.com/video/1096539283?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Demo Reel - Game Developer"></iframe>
 </p>
 
 <!--
@@ -45,15 +47,18 @@ good colour but doesn't fit with the current theme without updating the yellow h
 
 {% comment %}Capstone Project - Video Embed{% endcomment %}
 
+<p style="text-align: center;">- TFS Capstone Project -</p>
+
 <p style="text-align: center;">
 
 <!--![Project Soul Title](/images/project-soul/project-soul-title.png) - either this or the video embed seems to be enough, both show similar images -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/W3JXC9hvvfQ?si=IMtTX5IqPTELV5bM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/W3JXC9hvvfQ?si=IMtTX5IqPTELV5bM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </p>
 
 {% comment %} Capstone Project - Synopsis {% endcomment %}
+
 <p style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #112233; padding: 12px; border-radius: 1px;">
 <strong><a href="https://projectsoul2025.itch.io/project-soul" target="_blank">Project Soul</a></strong> 
 </p>
@@ -111,9 +116,13 @@ good colour but doesn't fit with the current theme without updating the yellow h
   **[TFS Release Announcement](https://projectsoul2025.itch.io/project-soul)** 
   </details>
 
+  <br> 
+
 ___
 
 {% comment %}DSSP - Synopsis{% endcomment %}
+
+<p style="text-align: center;">- School Projects -</p>
 
 <p style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #112233; padding: 12px; border-radius: 1px;">
     <strong>
@@ -126,6 +135,16 @@ ___
 
   A physics-based sci-fi vehicle sim set on an asteroid with a "skate park" for space speeders.
 
+</div>
+
+{% comment %}Deep Space Speeder Park - Technical Details{% endcomment %}
+<details markdown="1">
+  <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #223344; padding: 12px; border-radius: 6px;">
+    <strong>Click here for technical details about Deep Space Speeder Park</strong>
+    <span style="color: #00d2ff;">▼</span>
+  </summary>
+  <br>
+
 **Language/Engine:**
   - C# / Unity
 
@@ -133,10 +152,10 @@ ___
   - Independent physics-based maneuvering thrusters, main engines, and brake thrusters
   - "Repulsor-like" suspension (similar to "Luke's land speeder") 
   - Particle physics-based "elevator"
-</div>
+  
+  </details>
 
-
-{% comment %}DSSP - Expanded section - if any{% endcomment %}
+  <br> 
 
 {% comment %}SMGDT - Synopsis{% endcomment %}
 
@@ -149,10 +168,19 @@ ___
 <div style="padding: 15px; overflow: hidden;" markdown="1">
   <img src="images/smgdt/smgdt-orbit.PNG" style="width: 600px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #3d0066;">
 
-  A physics-based adventure atop weaponized space mini golf platforms.<br>
+  A physics-based arcade adventure atop weaponized space mini golf platforms.<br>
 
-  Designed as an action shooter for players to pilot and fight their way through oversized and hostile space mini golf courses.
+  War has returned and the Intergalactic Minigolf Consortium has deemed that all tourist destinations adjacent to Stargates be retrofit for combat. And it's your job to stop them.
+
 </div>
+
+{% comment %}Deep Space Speeder Park - Technical Details{% endcomment %}
+<details markdown="1">
+  <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #223344; padding: 12px; border-radius: 6px;">
+    <strong>Click here for technical details about Space Mini Golf Death Trench</strong>
+    <span style="color: #00d2ff;">▼</span>
+  </summary>
+  <br>
 
 **Language/Engine:**
   - C# / Unity
@@ -161,12 +189,11 @@ ___
   - Physics based controller
   - Dotween Library for scripted obstacle movement
   
+  </details>
 
-
-{% comment %}SMGDT - Expanded section - if any{% endcomment %}
+  <br>   
 
 {% comment %}Rocket Ship Valet - Synopsis{% endcomment %}
-
 
 <p style="flex; justify-content: space-between; align-items: center; cursor: pointer; background: #112233; padding: 12px; border-radius: 1px;">
     <strong>
@@ -182,24 +209,56 @@ ___
   Collect and deliver passengers in the most unwieldy of spacecraft
 </div>
 
+{% comment %}Rocket Ship Valet - Expanded section - if any{% endcomment %}
+
+<details markdown="1">
+  <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #223344; padding: 12px; border-radius: 6px;">
+    <strong>Click here for technical details about Rocket Ship Valet</strong>
+    <span style="color: #00d2ff;">▼</span>
+  </summary>
+  <br>
+
 **Language/Engine:**
-  - C++ / Unreal 5
+  - Blueprints / Unreal 5
 
   **Notable Features:**
   - Physics based
   - Pick up passengers via tractor beam or just crash into them the old fashioned way
   - Avoid miniature black holes and springy space mushrooms
   
-{% comment %}Rocket Ship Valet - Expanded section - if any{% endcomment %}
+  </details>
+
+  <br>   
+
+___
 
 {% comment %}Game Jams{% endcomment %}
-### Game Jams  
+
+<p style="text-align: center;">- Game Jams -</p>
 
 {% comment %}Cult of the Reaper - Synopsis{% endcomment %}
-<a href="https://sourceofentropy.itch.io/cult-of-the-reaper" target="_blank">Cult of the Reaper</a>  
-Summer 2025 TFS Game Jam Winner  
+<a href="https://sourceofentropy.itch.io/cult-of-the-reaper" target="_blank">Cult of the Reaper</a> - Summer 2025 TFS Game Jam Winner
+
+<img src="images/cotr/cult-of-the-reaper-title-2.png" style="width: 600px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #3d0066;">
+
 
 {% comment %}Cult of the Reaper - Expanded section -if any{% endcomment %}
+
+<details markdown="1">
+  <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #223344; padding: 12px; border-radius: 6px;">
+    <strong>Click here for technical details about Cult of the Reaper</strong>
+    <span style="color: #00d2ff;">▼</span>
+  </summary>
+  <br>
+
+**Language/Engine:**
+  - C# / Unity
+
+  **Notable Features:**
+  
+  </details>
+
+  <br>   
 
 {% comment %}Fort Maple - Synopsis{% endcomment %}
 <a href="https://theredpool.itch.io/fort-maple" target="_blank">Fort Maple</a>
@@ -208,12 +267,61 @@ April 2025 TFS Game Jam Winner
 
 What Canadian Beaver doesn't want to run their own Maple Syrup farm?  
 Fort Maple was by a team of 3 programmers and 1 artist over the course of a 3.5 day game jam.  
-Built in Unity/C#  
 
 {% comment %}Fort Maple - Expanded Section - if any{% endcomment %}
 
-{% comment %}Commercial projects{% endcomment %}
-### Commercial Projects  
+<details markdown="1">
+  <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #223344; padding: 12px; border-radius: 6px;">
+    <strong>Click here for technical details about Fort Maple</strong>
+    <span style="color: #00d2ff;">▼</span>
+  </summary>
+  <br>
+
+**Language/Engine:**
+  - C# / Unity
+
+  **Notable Features:**
+  
+  </details>
+
+  <br>   
+
+___
+
+{% comment %}Past projects{% endcomment %}
+
+<p style="text-align: center;">- Past Live Service / Backend Projects -</p>
+
+During my time at Cloudhead Games I worked as a Backend Engineer creating the backend platform for Pistol Whip and future titles.  
+
+The mandate was to create a High Availability micro cloud product that accomodate current demands and expand for future growth and future games.
+
+
+
+<details markdown="1">
+  <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #223344; padding: 12px; border-radius: 6px;">
+    <strong>Technical Details</strong>
+    <span style="color: #00d2ff;">▼</span>
+  </summary>
+  
+  <br>
+
+**Backend**
+
+    - Python, Django, Mysql
+
+**Platform**
+
+    - Docker, Docker-compose  
+    - Digital Ocean Kubernetes
+    - Nginx
+  
+
+  </details>
+
+  <br>   
+
+
 
 {% comment %}Pistol Whip - Video Embeds{% endcomment %}
 
@@ -230,11 +338,13 @@ Pistol Whip Smoke & Thunder
 - A Wild Wild West inspired expansion for the award winning VR shooter Pistol Whip
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3hhPAt0Nq94?si=RXqMzMvvdVzXXpcd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+___
+
 {% comment %}Additional Courses{% endcomment %}
-### Additional Courses  
 
 {% comment %}Udemy Courses{% endcomment %}
-#### Udemy Courses  
+
+<p style="text-align: center;">- Udemy Courses -</p>
 
 [Intro to Flight Physics](https://www.udemy.com/course/intro-to-airplane-physics-in-unity-3d/)  
 
@@ -251,3 +361,7 @@ Unity Dialogue & Quests: Intermediate (Course no longer available)
 [Pinball 3D](https://www.udemy.com/course/unity-game-tutorial-pinball-3d/)  
 
 [Ludo 3D](https://www.udemy.com/course/unity-game-tutorial-board-game-ludo-3d/)  
+
+[Unity Bootcamp - University of Victoria - Continuing Studies](https://members.viatec.ca/event-calendar/Details/unity-in-interactive-storytelling-for-creative-technology-658646?sourceTypeId=Website)  
+<!-- UVIC has removed the original course link -->
+A 13 Week Unity Bootcamp instructed by [Charles Hache](https://www.linkedin.com/in/charles-hache/), a Unity Certified Instructor

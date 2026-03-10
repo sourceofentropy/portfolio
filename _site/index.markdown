@@ -256,14 +256,26 @@ ___
 **Language/Engine:**
   - C# / Unity
 
-  **Notable Features:**
-  
+  **Contributed Features:**
+  - 2D Character controller, character abilitiy system
+  - Base enemy AI (basic patrolling, etc)
+  - Zones/Rooms
+  - "Harvest" mechanic
+    - Enemies with a glowing halo are marked for harvest
+    - When you hide and a marked enemy crosses your path, the halo turns green indicating they are ripe for harvest
+    - They remain 'ripe' for a configurable duration once they pass where you're hidden
+    - Strike them while the halo is grain to gain 'Harvest'
+    - Eventual plan is to use your harvest score to gate progression in certain areas of the game as it expands     
+
   </details>
 
   <br>   
 
 {% comment %}Fort Maple - Synopsis{% endcomment %}
+
 <a href="https://theredpool.itch.io/fort-maple" target="_blank">Fort Maple</a>
+
+<img src="images/fort-maple/fort-maple-title-screen.PNG" style="width: 600px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #3d0066;">
 
 April 2025 TFS Game Jam Winner  
 
@@ -282,8 +294,10 @@ Fort Maple was by a team of 3 programmers and 1 artist over the course of a 3.5 
 **Language/Engine:**
   - C# / Unity
 
-  **Notable Features:**
-  
+  **Contributed Features:**
+  - Soundtrack and audio fx
+  - Farmstand shop (cut due to scope)
+   
   </details>
 
   <br>   
@@ -347,11 +361,37 @@ ___
 
 {% comment %}Additional Courses{% endcomment %}
 
+
+{% comment %}Bootcamps{% endcomment %}
+
+<p style="text-align: center;">- Bootcamps -</p>
+
+___
+
+[Unity Bootcamp - University of Victoria - Continuing Studies](https://members.viatec.ca/event-calendar/Details/unity-in-interactive-storytelling-for-creative-technology-658646?sourceTypeId=Website)  
+<!-- UVIC has removed the original course link -->
+
+A 13 Week Unity Bootcamp instructed by [Charles Hache](https://www.linkedin.com/in/charles-hache/), a Unity Certified Instructor
+
+**Features**
+- First began Space Mini Golf Death Trench during this bootcamp
+- Uses point lights, spot lights, emissive materials
+- Dotween for scripted obstacle motion
+- Object pooling for projectiles
+- Mixed physics controller (main engines used physics)
+- Particle FX
+- Weapon system provided configuration of:
+  - Shot rate, volley rate, volley size, number of weapon barrels
+
+___
+
+
 {% comment %}Udemy Courses{% endcomment %}
 
 <p style="text-align: center;">- Udemy Courses -</p>
 
-All courses listed are using Unity and C#
+<p style="text-align: center;">All courses listed are using Unity and C#</p>
+
 
 ___
 
@@ -445,17 +485,3 @@ ___
 - Player select screen
 
 ___
-
-[Unity Bootcamp - University of Victoria - Continuing Studies](https://members.viatec.ca/event-calendar/Details/unity-in-interactive-storytelling-for-creative-technology-658646?sourceTypeId=Website)  
-<!-- UVIC has removed the original course link -->
-A 13 Week Unity Bootcamp instructed by [Charles Hache](https://www.linkedin.com/in/charles-hache/), a Unity Certified Instructor
-
-**Features**
-- First began Space Mini Golf Death Trench during this bootcamp
-- Uses point lights, spot lights, emissive materials
-- Dotween for scripted obstacle motion
-- Object pooling for projectiles
-- Mixed physics controller (main engines used physics)
-- Particle FX
-- Weapon system provided configuration of:
-  - Shot rate, volley rate, volley size, number of weapon barrels

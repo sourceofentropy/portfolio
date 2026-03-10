@@ -19,7 +19,7 @@
 {"@context":"https://schema.org","@type":"WebSite","headline":"portfolio","name":"portfolio","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=87da0211edd9c593ec3cff51f8a9b3c037e6bc39">
+    <link rel="stylesheet" href="/assets/css/style.css?v=c678c32edbc39f7bc79f3f327a6da9041b9e6504">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="/assets/js/respond.js"></script>
     <!--[if lt IE 9]>
@@ -122,27 +122,28 @@ good colour but doesn't fit with the current theme without updating the yellow h
 
 <p>
   <div style="padding: 15px; overflow: hidden;">
-  <img src="images/project-soul/TFS_VG_ProjectSoulPoster_1212.jpg" style="float: left; width: 200px; margin-right: 20px; border-radius: 8px; border: 1px solid #3d0066;" />
+  <img src="images/project-soul/TFS_VG_ProjectSoulPoster_1212.jpg" style="border-radius: 8px; border: 1px solid #3d0066;" />
+  </div>
+</p>
 <p>
       <strong>Toronto Film School Capstone Project</strong> - Winter 2025<br /><br />
       A 2.5D side scrolling action platformer styled after the likes of Trine and Mandragora<br />
       <br />
-      <strong>Roles:</strong><br />  
-      - Assistant Producer<br />
-      - Project management (Azure DevOps)<br />
-      - Tools Engineer<br />
-      <br />
-
-      <strong>Contributions:</strong><br />
-
-      - Dialogue and Quest system<br />
-      - Scrums/Azure sprint and board management<br />
-      - Co-team lead (PR's, merge conflicts)<br />
-      <br />
-    </p>
-    
-  </div>
 </p>
+
+<p><strong>Roles:</strong></p>
+<ul>
+  <li>Assistant Producer</li>
+  <li>Project management (Azure DevOps)</li>
+  <li>Tools Engineer</li>
+</ul>
+
+<p><strong>Contributions:</strong></p>
+<ul>
+  <li>Dialogue and Quest system</li>
+  <li>Scrums/Azure sprint and board management</li>
+  <li>PR’s, merge conflicts</li>
+</ul>
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #223344; padding: 12px; border-radius: 6px;">
@@ -156,7 +157,7 @@ good colour but doesn't fit with the current theme without updating the yellow h
     <li>C# / Unity</li>
   </ul>
 
-  <p><strong>Features:</strong></p>
+  <p><strong>Contributed Features:</strong></p>
 
   <p><strong>Dialogue System</strong></p>
   <ul>
@@ -179,6 +180,13 @@ good colour but doesn't fit with the current theme without updating the yellow h
     <li>Utilized ScriptableObjects</li>
     <li>Configurable number and type of quest objectives</li>
     <li>Provided hooks for dialogue or other systems to verify quest status</li>
+  </ul>
+
+  <p><strong>Project involvement</strong></p>
+  <ul>
+    <li>Handling PR’s, branching, versioning, releases</li>
+    <li>Azure DevOps roadmap, sprints, tickets, regular in-class scrums</li>
+    <li>Implementing Quests as designed by the art lead</li>
   </ul>
 
   <p><strong><a href="https://projectsoul2025.itch.io/project-soul">TFS Release Announcement</a></strong></p>
@@ -357,7 +365,7 @@ Fort Maple was by a team of 3 programmers and 1 artist over the course of a 3.5 
 
 <p>During my time at Cloudhead Games I worked as a Backend Engineer creating the backend platform for Pistol Whip and future titles.</p>
 
-<p>The mandate was to create a High Availability micro cloud product that accomodate current demands and expand for future growth and future games.</p>
+<p>The mandate was to create a High Availability micro cloud product to accomodate current demands and expand for future growth and future games.</p>
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #223344; padding: 12px; border-radius: 6px;">
@@ -402,29 +410,161 @@ Fort Maple was by a team of 3 programmers and 1 artist over the course of a 3.5 
 </ul>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3hhPAt0Nq94?si=RXqMzMvvdVzXXpcd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 
+<p><br /></p>
+
 <hr />
 
 <p style="text-align: center;">- Udemy Courses -</p>
 
+<p>All courses listed are using Unity and C#</p>
+
+<hr />
+
 <p><a href="https://www.udemy.com/course/intro-to-airplane-physics-in-unity-3d/">Intro to Flight Physics</a></p>
+
+<p><strong>Features</strong></p>
+<ul>
+  <li>Physics flight controller</li>
+  <li>Highly configurable flight characteristics
+    <ul>
+      <li>Lift, Lift curve, Engine power band, roll rate, etc</li>
+    </ul>
+  </li>
+  <li>Animated control surfaces
+    <ul>
+      <li>Ailerons, Flaps, Rudder, Elevator, Propeller, Steerable wheels</li>
+    </ul>
+  </li>
+  <li>Save configurations to scriptable objects to quickly create persistant profiles for different styles/difficulties of flight or different aircraft performance</li>
+  <li>Modular architecture allowing easy expansion for a viarety of aircraft configurations
+    <ul>
+      <li>ex. Multi-engine, wheel configuration</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
 
 <p><a href="https://www.udemy.com/course/artificial-intelligence-in-unity/">The Beginners Guide to Games AI</a></p>
 
-<p>Unity Dialogue &amp; Quests: Intermediate (Course no longer available)</p>
+<p><strong>Features</strong></p>
+<ul>
+  <li>A* navigation with waypoints</li>
+  <li>NavMesh layers and masks</li>
+  <li>Crowd behaviour, basic flocking</li>
+  <li>GOAP, Behaviour Trees</li>
+</ul>
+
+<hr />
+
+<h4 id="unity-dialogue--quests-intermediate">Unity Dialogue &amp; Quests: Intermediate</h4>
+<ul>
+  <li>Course no longer available - was provided by GameDev.tv via Udemy</li>
+</ul>
+
+<p><strong>Features</strong></p>
+<ul>
+  <li>Node based dialogue editor with draggable nodes</li>
+  <li>UI Layout groups</li>
+  <li>Save quests and dialogue to scriptable objects</li>
+  <li>Hooks for giving or completing quests, quest objectives, and quest rewards through dialogue or other in game events</li>
+  <li>Ability to chain quest conditions with predicates (and/or/not)</li>
+</ul>
+
+<hr />
 
 <p><a href="https://www.udemy.com/course/unity-metvania/">Learn to Create a Metroidvania Game</a></p>
 
+<p><strong>Features</strong></p>
+<ul>
+  <li>2D Platformer w/2d animations, patrolling enemies, player abilities</li>
+  <li>Multi-phase boss fight</li>
+  <li>Multiple zones/scenes</li>
+  <li>World Map</li>
+  <li>Mini Map</li>
+  <li>Game save/load</li>
+</ul>
+
+<hr />
+
 <p><a href="https://www.udemy.com/course/unitymobilecourse/">Unity Mobile Game Development</a></p>
+
+<p><strong>Features</strong></p>
+<ul>
+  <li>Android build</li>
+  <li>Touch controls</li>
+  <li>Level Loader / Level Select Screen</li>
+  <li>Boss sequence</li>
+  <li>Unity Ads (Legacy)
+    <ul>
+      <li>Banner, Interstitial, Reward Ads</li>
+    </ul>
+  </li>
+  <li>Object pooling (of projectiles)</li>
+</ul>
+
+<hr />
 
 <p><a href="https://www.udemy.com/course/unity-course-galaga-3d/">Galaga 3D</a></p>
 
+<p><strong>Features</strong></p>
+<ul>
+  <li>Waypoint system with bezier curves to produce smooth enemy paths
+    <ul>
+      <li>Includes editor gizmos for path visualization</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
 <p><a href="https://www.udemy.com/course/unity-game-tutorial-pinball-3d/">Pinball 3D</a></p>
 
+<p><strong>Features</strong></p>
+<ul>
+  <li>Editor tools provide a configurable mission editor
+    <ul>
+      <li>Ex. What targets to hit, how long you have to hit them, does the mission reset on player death, etc.</li>
+    </ul>
+  </li>
+  <li>Configurable lighting sequences, triggerable on mission completion</li>
+  <li>Bumpers, Flippers, Targets, Plunger</li>
+</ul>
+
+<hr />
+
 <p><a href="https://www.udemy.com/course/unity-game-tutorial-board-game-ludo-3d/">Ludo 3D</a></p>
+
+<p><strong>Features</strong></p>
+<ul>
+  <li>Clone of the Ludo board game</li>
+  <li>Home base area, main routes, home routes</li>
+  <li>Emulated physical dice</li>
+  <li>Basic AI Players</li>
+  <li>Bumping players</li>
+  <li>Player select screen</li>
+</ul>
+
+<hr />
 
 <p><a href="https://members.viatec.ca/event-calendar/Details/unity-in-interactive-storytelling-for-creative-technology-658646?sourceTypeId=Website">Unity Bootcamp - University of Victoria - Continuing Studies</a><br />
 <!-- UVIC has removed the original course link -->
 A 13 Week Unity Bootcamp instructed by <a href="https://www.linkedin.com/in/charles-hache/">Charles Hache</a>, a Unity Certified Instructor</p>
+
+<p><strong>Features</strong></p>
+<ul>
+  <li>First began Space Mini Golf Death Trench during this bootcamp</li>
+  <li>Uses point lights, spot lights, emissive materials</li>
+  <li>Dotween for scripted obstacle motion</li>
+  <li>Object pooling for projectiles</li>
+  <li>Mixed physics controller (main engines used physics)</li>
+  <li>Particle FX</li>
+  <li>Weapon system provided configuration of:
+    <ul>
+      <li>Shot rate, volley rate, volley size, number of weapon barrels</li>
+    </ul>
+  </li>
+</ul>
 
 
       </section>

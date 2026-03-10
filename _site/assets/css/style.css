@@ -276,3 +276,11 @@ section #title .credits.right { float: right; }
 @media print, screen and (max-width: 480px) { #header { margin-top: -20px; }
   section { margin-top: 40px; }
   nav { display: none; } }
+/* 1. Force the list to allow markers */
+body .wrapper section ul, body details ul { list-style: disc outside !important; /* 'outside' ensures bullets aren't hidden by the box edge */ list-style-type: disc !important; padding-left: 2rem !important; /* Vital: Without padding, bullets are off-screen to the left */ margin-left: 1rem !important; }
+
+/* 2. Force the list items to show as list-items */
+body .wrapper section ul li, body details ul li { display: list-item !important; /* This is the switch that turns bullets back on */ list-style: disc !important; margin-bottom: 0.5rem; }
+
+/* 3. Ensure the marker itself isn't empty */
+body .wrapper section ul li::marker, body details ul li::marker { content: initial !important; /* Resets the '>>' back to the default bullet */ color: #00D2FF !important; /* Your dark purple for the dots */ }

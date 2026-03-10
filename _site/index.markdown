@@ -65,27 +65,24 @@ good colour but doesn't fit with the current theme without updating the yellow h
 
 <p>
   <div style="padding: 15px; overflow: hidden;">
-  <img src="images/project-soul/TFS_VG_ProjectSoulPoster_1212.jpg" style="float: left; width: 200px; margin-right: 20px; border-radius: 8px; border: 1px solid #3d0066;">
+  <img src="images/project-soul/TFS_VG_ProjectSoulPoster_1212.jpg" style="border-radius: 8px; border: 1px solid #3d0066;">
+  </div>
+</p>
 <p>
       <strong>Toronto Film School Capstone Project</strong> - Winter 2025<br><br>
       A 2.5D side scrolling action platformer styled after the likes of Trine and Mandragora<br>
       <br>
-      <strong>Roles:</strong><br>  
-      - Assistant Producer<br>
-      - Project management (Azure DevOps)<br>
-      - Tools Engineer<br>
-      <br>
+</p>
 
-      <strong>Contributions:</strong><br>
+**Roles:**
+- Assistant Producer
+- Project management (Azure DevOps)
+- Tools Engineer
 
-      - Dialogue and Quest system<br>
-      - Scrums/Azure sprint and board management<br>
-      - Co-team lead (PR's, merge conflicts)<br>
-      <br>
-    </p>
-    
-  </div>
-</P>
+**Contributions:**
+- Dialogue and Quest system
+- Scrums/Azure sprint and board management
+- PR's, merge conflicts
 
 {% comment %}Capstone Project - Technical Details{% endcomment %}
 <details markdown="1">
@@ -98,7 +95,7 @@ good colour but doesn't fit with the current theme without updating the yellow h
   **Language/Engine:**
   - C# / Unity
 
-  **Features:**
+  **Contributed Features:**
 
   **Dialogue System**
   - Node-based dialogue editor using ScriptableObjects
@@ -112,6 +109,11 @@ good colour but doesn't fit with the current theme without updating the yellow h
   - Utilized ScriptableObjects
   - Configurable number and type of quest objectives
   - Provided hooks for dialogue or other systems to verify quest status  
+ 
+  **Project involvement**
+  - Handling PR's, branching, versioning, releases
+  - Azure DevOps roadmap, sprints, tickets, regular in-class scrums  
+  - Implementing Quests as designed by the art lead
 
   **[TFS Release Announcement](https://projectsoul2025.itch.io/project-soul)** 
   </details>
@@ -294,7 +296,7 @@ ___
 
 During my time at Cloudhead Games I worked as a Backend Engineer creating the backend platform for Pistol Whip and future titles.  
 
-The mandate was to create a High Availability micro cloud product that accomodate current demands and expand for future growth and future games.
+The mandate was to create a High Availability micro cloud product to accomodate current demands and expand for future growth and future games.
 
 
 
@@ -338,7 +340,10 @@ Pistol Whip Smoke & Thunder
 - A Wild Wild West inspired expansion for the award winning VR shooter Pistol Whip
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3hhPAt0Nq94?si=RXqMzMvvdVzXXpcd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<br> 
+
 ___
+
 
 {% comment %}Additional Courses{% endcomment %}
 
@@ -346,22 +351,111 @@ ___
 
 <p style="text-align: center;">- Udemy Courses -</p>
 
+All courses listed are using Unity and C#
+
+___
+
 [Intro to Flight Physics](https://www.udemy.com/course/intro-to-airplane-physics-in-unity-3d/)  
+
+**Features**
+- Physics flight controller
+- Highly configurable flight characteristics
+  - Lift, Lift curve, Engine power band, roll rate, etc
+- Animated control surfaces
+  - Ailerons, Flaps, Rudder, Elevator, Propeller, Steerable wheels
+- Save configurations to scriptable objects to quickly create persistant profiles for different styles/difficulties of flight or different aircraft performance
+- Modular architecture allowing easy expansion for a viarety of aircraft configurations
+  - ex. Multi-engine, wheel configuration
+
+___
 
 [The Beginners Guide to Games AI](https://www.udemy.com/course/artificial-intelligence-in-unity/ )  
 
-Unity Dialogue & Quests: Intermediate (Course no longer available)
+**Features**
+- A* navigation with waypoints
+- NavMesh layers and masks
+- Crowd behaviour, basic flocking
+- GOAP, Behaviour Trees
+
+___
+
+#### Unity Dialogue & Quests: Intermediate 
+- Course no longer available - was provided by GameDev.tv via Udemy
+
+**Features**
+- Node based dialogue editor with draggable nodes
+- UI Layout groups
+- Save quests and dialogue to scriptable objects
+- Hooks for giving or completing quests, quest objectives, and quest rewards through dialogue or other in game events
+- Ability to chain quest conditions with predicates (and/or/not)
+
+___
 
 [Learn to Create a Metroidvania Game](https://www.udemy.com/course/unity-metvania/)  
 
+**Features**
+- 2D Platformer w/2d animations, patrolling enemies, player abilities
+- Multi-phase boss fight
+- Multiple zones/scenes
+- World Map
+- Mini Map
+- Game save/load
+
+___
+
 [Unity Mobile Game Development](https://www.udemy.com/course/unitymobilecourse/)  
+
+**Features**
+- Android build
+- Touch controls
+- Level Loader / Level Select Screen
+- Boss sequence
+- Unity Ads (Legacy)
+  - Banner, Interstitial, Reward Ads
+- Object pooling (of projectiles)
+
+___
 
 [Galaga 3D](https://www.udemy.com/course/unity-course-galaga-3d/)  
 
+**Features**
+- Waypoint system with bezier curves to produce smooth enemy paths
+  - Includes editor gizmos for path visualization
+
+___
+
 [Pinball 3D](https://www.udemy.com/course/unity-game-tutorial-pinball-3d/)  
 
+**Features**
+- Editor tools provide a configurable mission editor
+  - Ex. What targets to hit, how long you have to hit them, does the mission reset on player death, etc.
+- Configurable lighting sequences, triggerable on mission completion
+- Bumpers, Flippers, Targets, Plunger
+
+___
+
 [Ludo 3D](https://www.udemy.com/course/unity-game-tutorial-board-game-ludo-3d/)  
+
+**Features**
+- Clone of the Ludo board game
+- Home base area, main routes, home routes
+- Emulated physical dice
+- Basic AI Players
+- Bumping players
+- Player select screen
+
+___
 
 [Unity Bootcamp - University of Victoria - Continuing Studies](https://members.viatec.ca/event-calendar/Details/unity-in-interactive-storytelling-for-creative-technology-658646?sourceTypeId=Website)  
 <!-- UVIC has removed the original course link -->
 A 13 Week Unity Bootcamp instructed by [Charles Hache](https://www.linkedin.com/in/charles-hache/), a Unity Certified Instructor
+
+**Features**
+- First began Space Mini Golf Death Trench during this bootcamp
+- Uses point lights, spot lights, emissive materials
+- Dotween for scripted obstacle motion
+- Object pooling for projectiles
+- Mixed physics controller (main engines used physics)
+- Particle FX
+- Weapon system provided configuration of:
+  - Shot rate, volley rate, volley size, number of weapon barrels
